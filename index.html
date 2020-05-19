@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>HTML-3</title>
+</head>
+<body>
+    <!--HTML-TAG-->
+    <form action="" method="get">
+        <fieldset>
+            <legend>Form-HTML_TAG</legend>
+          First Name:
+            <input type="text" name="1st_name" placeholder="Insert Your Name" required="required" /> <br /><br />
+          Last Name:
+            <input type="text" name="last_name" placeholder="Insert Your Name" /> <br /><br />
+          Alternative Name:
+            <input type="text" name="middle_name" placeholder="Alternative Name" disabled="disabled" /> <br /><br />
+          Password:
+            <input type="password" name="password" placeholder="Enter Your Password" /> <br /><br />
+          Re-Type:
+            <input type="password" name="re-type" placeholder="Retype" readonly="readonly" />
+        </fieldset> <br />
+          Birthday:
+            <input type="date" name="birthdate"> <br /><br />
+          Email:
+           <input type="email" name="email" placeholder="Input Your Email" requried="required" /> <br /><br />
+          Gender: <br />
+           <label for="male">Male</label>
+             <input type="radio" name="gender" value="male" /> <br />
+           <label for="female">Female</label>
+             <input type="radio" name="gender" value="female" /> <br /><br />
+          Skill: <br />
+            <input type="checkbox" name="skill" value="html" />HTML
+            <input type="checkbox" name="skill" value="css" />CSS
+            <input type="checkbox" name="skill" value="bootstrap" />BOOTSTRAP
+            <input type="checkbox" name="skill" value="js/jq" />JS/JQ
+            <input type="checkbox" name="skill" value="php" />PHP <br /><br />
+          Choose:
+          <select name="developer" id="">
+              <option value="font-in">Web Designer(Font-IN)</option>
+              <option value="back-in">Web Developer(Back-IN)</option>
+              <option value="full-developer">Full Stack Developer</option>
+          </select> <br /><br />
+          <textarea name="data" id="" cols="50" rows="20" placeholder="Write Something..."></textarea><br /><br />
+          <input type="submit" value="Submit" />
+          <input type="reset" value="Reset" />
+    </form>
+</body>
+</html>
